@@ -1,6 +1,6 @@
 import sys
 import sqlite3
-from GUI.startScreen import login_main
+import login_main
 
 
 def connect_to_db(db_name):
