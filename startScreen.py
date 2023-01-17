@@ -2,8 +2,8 @@ from msilib.schema import Error
 import sqlite3
 import time
 
-from GUI.userScreen import userScreen
-from GUI.artistScreen import artistScreen
+import userScreen
+import artistScreen
 
 def error_msg(str):
     error_str_line = "\n************************\n"
